@@ -1,0 +1,219 @@
+/* General Page Style */
+.page {
+  padding: 60px 40px; /* Increased padding for better spacing */
+  font-family: 'Montserrat', sans-serif; /* Consistent font */
+  background-color: #f1faee; /* Light, consistent background */
+  min-height: 80vh;
+  color: #457b9d; /* Consistent text color */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Headings */
+.page h2 {
+  font-size: 2.5rem; /* Slightly larger heading */
+  color: #1d3557; /* Consistent heading color */
+  margin-bottom: 25px; /* More space below heading */
+  border-left: 8px solid #a8dadc; /* Updated accent color */
+  padding-left: 15px;
+  font-weight: 600; /* Make headings bolder */
+}
+
+/* Paragraphs */
+.page p {
+  font-size: 1.2rem; /* Slightly larger paragraph text */
+  line-height: 1.8; /* Improved line height for readability */
+  color: #457b9d; /* Consistent text color */
+  max-width: 900px;
+  margin-bottom: 35px; /* More space below paragraphs */
+}
+
+/* List for Services page */
+.page ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px; /* Add some space above the list */
+}
+
+.page ul li {
+  background-color: #a8dadc; /* Updated list item background */
+  color: #1d3557; /* Updated list item text color */
+  margin-bottom: 15px;
+  padding: 12px 20px; /* Adjusted padding */
+  border-radius: 8px; /* More rounded corners */
+  font-size: 1.1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08); /* Slightly more pronounced shadow */
+}
+
+/* Blogs Section */
+.blog-item {
+  background: #ffffff;
+  padding: 30px; /* Increased padding */
+  margin-bottom: 25px; /* More space between blog items */
+  border-left: 6px solid #457b9d; /* Updated accent color */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.blog-item h3 {
+  font-size: 2rem;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+
+.blog-item p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #457b9d;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Slightly wider form */
+  margin-top: 20px; /* Add some space above the form */
+}
+
+.contact-form label {
+  font-size: 1.1rem;
+  color: #1d3557;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px; /* Increased padding */
+  margin-bottom: 20px; /* More space below input fields */
+  border: 1px solid #a8dadc; /* Updated border color */
+  border-radius: 8px;
+  font-size: 1.05rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form button {
+  background-color: #457b9d; /* Updated button color */
+  color: white;
+  padding: 15px 25px; /* Adjusted padding */
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.contact-form button:hover {
+  background-color: #1d3557; /* Darker hover color */
+}
+/* Styles for the Generator Section */
+.generator-section {
+  margin-top: 30px;
+  padding: 40px; /* Add some padding around the elements */
+  background-color: #f1faee; /* Consistent background color */
+  border-radius: 12px; /* Soft rounded corners for the section */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+  text-align: left; /* Align text within the section */
+}
+
+.generator-section h2 {
+  font-size: 2.2rem;
+  color: #1d3557;
+  margin-bottom: 25px;
+}
+
+.generator-inputs {
+  display: flex;
+  gap: 20px; /* Space between input elements */
+  margin-bottom: 30px; /* Space below the input group */
+  flex-wrap: wrap; /* Allow inputs to wrap on smaller screens */
+  align-items: center; /* Vertically align input elements */
+}
+
+.generator-inputs label {
+  font-size: 1.1rem;
+  color: #1d3557;
+  margin-bottom: 5px; /* Space below the label */
+  display: block; /* Make label take full width */
+  font-weight: 500;
+}
+
+.generator-inputs input[type="text"],
+.generator-inputs input[type="file"],
+.generator-inputs textarea {
+  padding: 12px 15px;
+  border: 1px solid #a8dadc; /* Softer border */
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #457b9d;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+  flex-grow: 1; /* Allow text and textarea to grow */
+  min-width: 200px; /* Minimum width for input fields */
+}
+
+.generator-inputs textarea {
+  min-height: 100px;
+}
+
+.generator-inputs input[type="file"] {
+  padding-top: 10px; /* Adjust padding for file input */
+}
+
+.generator-inputs button {
+  padding: 12px 25px;
+  background-color: #457b9d; /* Consistent button color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.generator-inputs button:hover {
+  background-color: #1d3557; /* Darker hover color */
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.portfolio-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
